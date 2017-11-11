@@ -1,4 +1,4 @@
-package io.khasang.enterprise.dao;
+package io.khasang.techsandbox.dao;
 
 import org.hibernate.Criteria;
 import org.hibernate.Session;

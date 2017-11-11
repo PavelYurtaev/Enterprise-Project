@@ -1,5 +1,5 @@
 
-package io.khasang.enterprise.webservice.exchangerates.generated.ru.cbr.web;
+package io.khasang.techsandbox.webservice.exchangerates.generated.ru.cbr.web;
 
 import java.util.ArrayList;
 import java.util.List;

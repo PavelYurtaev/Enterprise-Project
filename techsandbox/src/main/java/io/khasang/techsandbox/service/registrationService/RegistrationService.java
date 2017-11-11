@@ -1,10 +1,10 @@
-package io.khasang.enterprise.service.registrationService;
+package io.khasang.techsandbox.service.registrationService;
 
-import io.khasang.enterprise.dao.interfaces.ClientDao;
-import io.khasang.enterprise.dao.interfaces.EmployeeDao;
-import io.khasang.enterprise.model.Client;
-import io.khasang.enterprise.model.Employee;
-import io.khasang.enterprise.service.AdminService;
+import io.khasang.techsandbox.dao.interfaces.ClientDao;
+import io.khasang.techsandbox.dao.interfaces.EmployeeDao;
+import io.khasang.techsandbox.model.Client;
+import io.khasang.techsandbox.model.Employee;
+import io.khasang.techsandbox.service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

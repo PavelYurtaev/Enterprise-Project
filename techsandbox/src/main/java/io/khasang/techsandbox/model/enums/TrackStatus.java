@@ -1,4 +1,4 @@
-package io.khasang.enterprise.model.enums;
+package io.khasang.techsandbox.model.enums;
 
 public enum TrackStatus {
     RUNNING, REQUESTED, CONFIRMED,

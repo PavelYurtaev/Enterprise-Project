@@ -1,4 +1,4 @@
-package io.khasang.enterprise.config;
+package io.khasang.techsandbox.config;
 
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +17,7 @@ import java.util.Properties;
 
 @Configuration
 @EnableTransactionManagement
-@ComponentScan({"io.khasang.enterprise.config"})
+@ComponentScan({"io.khasang.techsandbox.config"})
 @PropertySource(value = {"classpath:hibernate.properties"})
 public class HibernateConfig {
     @Autowired
@@ -27,7 +27,7 @@ public class HibernateConfig {
     public LocalSessionFactoryBean sessionFactory() {
         LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
         sessionFactory.setDataSource(dataSource());
-        sessionFactory.setPackagesToScan("io.khasang.enterprise.model");
+        sessionFactory.setPackagesToScan("io.khasang.techsandbox.model");
         sessionFactory.setHibernateProperties(hibernateProperties());
         return sessionFactory;
     }

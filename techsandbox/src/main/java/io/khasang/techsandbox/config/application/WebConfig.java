@@ -1,4 +1,4 @@
-package io.khasang.enterprise.config.application;
+package io.khasang.techsandbox.config.application;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = {"io.khasang.enterprise", "io.khasang.enterprise.controller"})
+@ComponentScan(basePackages = {"io.khasang.techsandbox", "io.khasang.techsandbox.controller"})
 public class WebConfig extends WebMvcConfigurerAdapter {
     @Bean
     public InternalResourceViewResolver viewResolver() {

@@ -1,4 +1,4 @@
-package io.khasang.enterprise.service.projectService;
+package io.khasang.techsandbox.service.projectService;
 
 public enum Status {
     PENDING,

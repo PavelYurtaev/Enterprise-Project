@@ -1,10 +1,10 @@
-package io.khasang.enterprise.controller;
+package io.khasang.techsandbox.controller;
 
-import io.khasang.enterprise.model.Client;
-import io.khasang.enterprise.service.NewsService;
-import io.khasang.enterprise.service.registrationService.ClientValidator;
-import io.khasang.enterprise.service.registrationService.RegistrationService;
-import io.khasang.enterprise.webservice.exchangerates.Rates;
+import io.khasang.techsandbox.model.Client;
+import io.khasang.techsandbox.service.NewsService;
+import io.khasang.techsandbox.service.registrationService.ClientValidator;
+import io.khasang.techsandbox.service.registrationService.RegistrationService;
+import io.khasang.techsandbox.webservice.exchangerates.Rates;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.LockedException;

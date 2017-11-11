@@ -1,6 +1,6 @@
-package io.khasang.enterprise.model;
+package io.khasang.techsandbox.model;
 
-import io.khasang.enterprise.model.enums.Features;
+import io.khasang.techsandbox.model.enums.Features;
 import org.hibernate.annotations.*;
 
 import javax.persistence.*;

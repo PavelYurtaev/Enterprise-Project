@@ -1,6 +1,6 @@
-package io.khasang.enterprise.service.registrationService;
+package io.khasang.techsandbox.service.registrationService;
 
-import io.khasang.enterprise.model.Employee;
+import io.khasang.techsandbox.model.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;

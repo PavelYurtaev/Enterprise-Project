@@ -1,7 +1,7 @@
-package io.khasang.enterprise.dao.interfaces;
+package io.khasang.techsandbox.dao.interfaces;
 
-import io.khasang.enterprise.model.Project;
-import io.khasang.enterprise.model.enums.ProjectBasis;
+import io.khasang.techsandbox.model.Project;
+import io.khasang.techsandbox.model.enums.ProjectBasis;
 
 import java.math.BigDecimal;
 import java.util.List;

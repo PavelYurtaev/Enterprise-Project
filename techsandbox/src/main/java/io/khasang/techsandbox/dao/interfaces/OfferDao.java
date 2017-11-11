@@ -1,6 +1,6 @@
-package io.khasang.enterprise.dao.interfaces;
+package io.khasang.techsandbox.dao.interfaces;
 
-import io.khasang.enterprise.model.Offer;
+import io.khasang.techsandbox.model.Offer;
 
 import java.math.BigDecimal;
 import java.util.List;

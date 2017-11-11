@@ -1,7 +1,7 @@
-package io.khasang.enterprise.service;
+package io.khasang.techsandbox.service;
 
-import io.khasang.enterprise.dao.interfaces.NewsDao;
-import io.khasang.enterprise.model.News;
+import io.khasang.techsandbox.dao.interfaces.NewsDao;
+import io.khasang.techsandbox.model.News;
 import org.glassfish.jersey.process.internal.RequestScoped;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

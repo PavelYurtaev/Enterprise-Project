@@ -1,7 +1,7 @@
-package io.khasang.enterprise.dao;
+package io.khasang.techsandbox.dao;
 
-import io.khasang.enterprise.dao.interfaces.NewsDao;
-import io.khasang.enterprise.model.News;
+import io.khasang.techsandbox.dao.interfaces.NewsDao;
+import io.khasang.techsandbox.model.News;
 import org.hibernate.Criteria;
 import org.hibernate.Query;
 import org.springframework.stereotype.Repository;

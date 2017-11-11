@@ -1,4 +1,4 @@
-package io.khasang.enterprise.service.projectService.basicProject;
+package io.khasang.techsandbox.service.projectService.basicProject;
 
 import java.math.BigDecimal;
 

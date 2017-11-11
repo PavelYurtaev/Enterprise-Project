@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>Enterprise</groupId>
-    <artifactId>Enterprise</artifactId>
+    <groupId>io.khasang</groupId>
+    <artifactId>techsandbox</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>enterprise</name>
+    <name>techsandbox</name>
 
     <properties>
         <spring.version>4.2.4.RELEASE</spring.version>

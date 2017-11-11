@@ -1,7 +1,7 @@
-package io.khasang.enterprise.service.projectService.orderDecorator;
+package io.khasang.techsandbox.service.projectService.orderDecorator;
 
-import io.khasang.enterprise.service.projectService.AbstractProject;
-import io.khasang.enterprise.service.projectService.ProjectInterface;
+import io.khasang.techsandbox.service.projectService.AbstractProject;
+import io.khasang.techsandbox.service.projectService.ProjectInterface;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.math.BigDecimal;

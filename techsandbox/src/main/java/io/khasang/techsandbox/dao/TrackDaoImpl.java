@@ -1,8 +1,7 @@
-package io.khasang.enterprise.dao;
+package io.khasang.techsandbox.dao;
 
-import io.khasang.enterprise.dao.interfaces.TrackDao;
-import io.khasang.enterprise.model.Track;
-import io.khasang.enterprise.model.enums.TrackStatus;
+import io.khasang.techsandbox.dao.interfaces.TrackDao;
+import io.khasang.techsandbox.model.Track;
 import org.hibernate.Query;
 import org.springframework.stereotype.Repository;
 

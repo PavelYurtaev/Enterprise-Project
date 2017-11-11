@@ -1,4 +1,4 @@
-package io.khasang.enterprise.config;
+package io.khasang.techsandbox.config;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -21,7 +21,7 @@ import java.util.Collection;
 
 @Configuration
 @EnableTransactionManagement
-@ComponentScan({"io.khasang.enterprise.config"})
+@ComponentScan({"io.khasang.techsandbox.config"})
 public class UrlAuthSuccessHandler implements AuthenticationSuccessHandler {
     protected final Log logger = LogFactory.getLog(this.getClass());
     private RedirectStrategy redirectStrategy = new DefaultRedirectStrategy();

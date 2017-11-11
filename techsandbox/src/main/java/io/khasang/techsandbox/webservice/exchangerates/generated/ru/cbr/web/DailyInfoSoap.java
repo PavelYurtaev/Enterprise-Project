@@ -1,5 +1,5 @@
 
-package io.khasang.enterprise.webservice.exchangerates.generated.ru.cbr.web;
+package io.khasang.techsandbox.webservice.exchangerates.generated.ru.cbr.web;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;

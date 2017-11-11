@@ -1,4 +1,4 @@
-package io.khasang.enterprise.config;
+package io.khasang.techsandbox.config;
 
 import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
 

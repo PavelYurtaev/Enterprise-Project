@@ -1,8 +1,8 @@
-package io.khasang.enterprise.webservice.rest.news;
+package io.khasang.techsandbox.webservice.rest.news;
 
-import io.khasang.enterprise.model.News;
-import io.khasang.enterprise.service.NewsService;
-import io.khasang.enterprise.webservice.rest.offers.Region;
+import io.khasang.techsandbox.model.News;
+import io.khasang.techsandbox.service.NewsService;
+import io.khasang.techsandbox.webservice.rest.offers.Region;
 import org.hibernate.Hibernate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

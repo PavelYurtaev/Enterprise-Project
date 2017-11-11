@@ -1,8 +1,8 @@
-package io.khasang.enterprise.webservice.exchangerates;
+package io.khasang.techsandbox.webservice.exchangerates;
 
-import io.khasang.enterprise.webservice.exchangerates.generated.ru.cbr.web.DailyInfo;
-import io.khasang.enterprise.webservice.exchangerates.generated.ru.cbr.web.DailyInfoSoap;
-import io.khasang.enterprise.webservice.exchangerates.generated.ru.cbr.web.GetCursOnDateXMLResponse;
+import io.khasang.techsandbox.webservice.exchangerates.generated.ru.cbr.web.DailyInfo;
+import io.khasang.techsandbox.webservice.exchangerates.generated.ru.cbr.web.DailyInfoSoap;
+import io.khasang.techsandbox.webservice.exchangerates.generated.ru.cbr.web.GetCursOnDateXMLResponse;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
@@ -14,7 +14,7 @@ import java.util.Date;
 
 @Configuration
 @EnableTransactionManagement
-@ComponentScan({"io.khasang.enterprise.webservice"})
+@ComponentScan({"io.khasang.techsandbox.webservice"})
 public class Rates {
     private static DailyInfo service;
 

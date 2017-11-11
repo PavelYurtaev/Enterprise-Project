@@ -1,6 +1,6 @@
-package io.khasang.enterprise.model;
+package io.khasang.techsandbox.model;
 
-import io.khasang.enterprise.model.enums.TrackStatus;
+import io.khasang.techsandbox.model.enums.TrackStatus;
 
 import javax.persistence.*;
 import javax.validation.constraints.Max;

@@ -1,4 +1,4 @@
-package io.khasang.enterprise.service;
+package io.khasang.techsandbox.service;
 
 
 public class ExampleMySqlDump {

@@ -1,6 +1,6 @@
-package io.khasang.enterprise.service.projectService.orderDecorator;
+package io.khasang.techsandbox.service.projectService.orderDecorator;
 
-import io.khasang.enterprise.service.projectService.ProjectInterface;
+import io.khasang.techsandbox.service.projectService.ProjectInterface;
 
 import java.math.BigDecimal;
 

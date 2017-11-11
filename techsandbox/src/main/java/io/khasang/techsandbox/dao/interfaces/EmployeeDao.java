@@ -1,6 +1,6 @@
-package io.khasang.enterprise.dao.interfaces;
+package io.khasang.techsandbox.dao.interfaces;
 
-import io.khasang.enterprise.model.Employee;
+import io.khasang.techsandbox.model.Employee;
 
 import java.util.List;
 

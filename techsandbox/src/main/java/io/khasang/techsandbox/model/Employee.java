@@ -1,6 +1,6 @@
-package io.khasang.enterprise.model;
+package io.khasang.techsandbox.model;
 
-import io.khasang.enterprise.model.enums.Department;
+import io.khasang.techsandbox.model.enums.Department;
 import org.hibernate.annotations.Cascade;
 import org.hibernate.annotations.CascadeType;
 import org.springframework.format.annotation.DateTimeFormat;

@@ -1,9 +1,8 @@
-package io.khasang.enterprise.dao.interfaces;
+package io.khasang.techsandbox.dao.interfaces;
 
-import io.khasang.enterprise.model.CustomerOrder;
+import io.khasang.techsandbox.model.CustomerOrder;
 
 import java.util.List;
-import java.util.Set;
 
 public interface OrderDao {
     CustomerOrder findById(Integer id);

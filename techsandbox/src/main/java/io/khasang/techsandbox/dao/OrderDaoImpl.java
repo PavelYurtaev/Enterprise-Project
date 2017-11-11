@@ -1,7 +1,7 @@
-package io.khasang.enterprise.dao;
+package io.khasang.techsandbox.dao;
 
-import io.khasang.enterprise.dao.interfaces.OrderDao;
-import io.khasang.enterprise.model.CustomerOrder;
+import io.khasang.techsandbox.dao.interfaces.OrderDao;
+import io.khasang.techsandbox.model.CustomerOrder;
 import org.hibernate.Query;
 import org.springframework.stereotype.Repository;
 

@@ -1,6 +1,6 @@
-package io.khasang.enterprise.controller.client;
+package io.khasang.techsandbox.controller.client;
 
-import io.khasang.enterprise.webservice.exchangerates.Rates;
+import io.khasang.techsandbox.webservice.exchangerates.Rates;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

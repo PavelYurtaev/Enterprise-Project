@@ -1,6 +1,6 @@
-package io.khasang.enterprise.model;
+package io.khasang.techsandbox.model;
 
-import io.khasang.enterprise.model.enums.ProjectBasis;
+import io.khasang.techsandbox.model.enums.ProjectBasis;
 import org.hibernate.annotations.Cascade;
 import org.hibernate.annotations.CascadeType;
 

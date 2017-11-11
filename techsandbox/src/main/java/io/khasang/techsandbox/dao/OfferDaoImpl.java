@@ -1,7 +1,7 @@
-package io.khasang.enterprise.dao;
+package io.khasang.techsandbox.dao;
 
-import io.khasang.enterprise.dao.interfaces.OfferDao;
-import io.khasang.enterprise.model.Offer;
+import io.khasang.techsandbox.dao.interfaces.OfferDao;
+import io.khasang.techsandbox.model.Offer;
 import org.hibernate.Query;
 import org.springframework.stereotype.Repository;
 

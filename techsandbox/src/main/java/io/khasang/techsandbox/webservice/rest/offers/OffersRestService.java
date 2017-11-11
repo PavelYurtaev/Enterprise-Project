@@ -1,4 +1,4 @@
-package io.khasang.enterprise.webservice.rest.offers;
+package io.khasang.techsandbox.webservice.rest.offers;
 
 import javax.annotation.PostConstruct;
 import javax.ws.rs.GET;

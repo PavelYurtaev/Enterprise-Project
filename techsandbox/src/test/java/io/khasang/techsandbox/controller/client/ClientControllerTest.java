@@ -1,7 +1,7 @@
-package io.khasang.enterprise.controller.client;
+package io.khasang.techsandbox.controller.client;
 
-import io.khasang.enterprise.config.HibernateConfig;
-import io.khasang.enterprise.config.application.WebConfig;
+import io.khasang.techsandbox.config.HibernateConfig;
+import io.khasang.techsandbox.config.application.WebConfig;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

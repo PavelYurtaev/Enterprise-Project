@@ -1,6 +1,6 @@
-package io.khasang.enterprise.config;
+package io.khasang.techsandbox.config;
 
-import io.khasang.enterprise.config.application.WebConfig;
+import io.khasang.techsandbox.config.application.WebConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {

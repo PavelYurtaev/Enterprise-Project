@@ -1,4 +1,4 @@
-package io.khasang.enterprise.model;
+package io.khasang.techsandbox.model;
 
 import javax.persistence.*;
 

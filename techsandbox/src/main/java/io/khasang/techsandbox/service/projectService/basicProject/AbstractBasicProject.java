@@ -1,7 +1,7 @@
-package io.khasang.enterprise.service.projectService.basicProject;
+package io.khasang.techsandbox.service.projectService.basicProject;
 
-import io.khasang.enterprise.service.projectService.AbstractProject;
-import io.khasang.enterprise.service.projectService.Status;
+import io.khasang.techsandbox.service.projectService.AbstractProject;
+import io.khasang.techsandbox.service.projectService.Status;
 
 public abstract class AbstractBasicProject extends AbstractProject {
     private Status status = Status.PENDING;

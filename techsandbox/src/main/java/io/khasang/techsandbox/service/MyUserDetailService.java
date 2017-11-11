@@ -1,11 +1,11 @@
-package io.khasang.enterprise.service;
+package io.khasang.techsandbox.service;
 
-import io.khasang.enterprise.dao.interfaces.ClientDao;
-import io.khasang.enterprise.dao.interfaces.EmployeeDao;
-import io.khasang.enterprise.model.Client;
-import io.khasang.enterprise.model.ClientRole;
-import io.khasang.enterprise.model.Employee;
-import io.khasang.enterprise.model.EmployeeRole;
+import io.khasang.techsandbox.dao.interfaces.ClientDao;
+import io.khasang.techsandbox.dao.interfaces.EmployeeDao;
+import io.khasang.techsandbox.model.Client;
+import io.khasang.techsandbox.model.ClientRole;
+import io.khasang.techsandbox.model.Employee;
+import io.khasang.techsandbox.model.EmployeeRole;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

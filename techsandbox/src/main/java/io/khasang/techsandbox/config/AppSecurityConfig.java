@@ -1,4 +1,4 @@
-package io.khasang.enterprise.config;
+package io.khasang.techsandbox.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

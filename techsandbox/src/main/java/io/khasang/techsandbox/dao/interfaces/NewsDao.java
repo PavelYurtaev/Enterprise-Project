@@ -1,6 +1,6 @@
-package io.khasang.enterprise.dao.interfaces;
+package io.khasang.techsandbox.dao.interfaces;
 
-import io.khasang.enterprise.model.News;
+import io.khasang.techsandbox.model.News;
 
 import java.util.List;
 

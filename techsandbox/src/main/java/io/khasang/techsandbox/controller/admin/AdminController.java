@@ -1,16 +1,15 @@
-package io.khasang.enterprise.controller.admin;
+package io.khasang.techsandbox.controller.admin;
 
-import io.khasang.enterprise.dao.interfaces.ClientDao;
-import io.khasang.enterprise.dao.interfaces.EmployeeDao;
-import io.khasang.enterprise.model.Client;
-import io.khasang.enterprise.model.ClientRole;
-import io.khasang.enterprise.model.Employee;
-import io.khasang.enterprise.model.EmployeeRole;
-import io.khasang.enterprise.model.enums.Department;
-import io.khasang.enterprise.service.AdminService;
-import io.khasang.enterprise.service.registrationService.EmployeeValidator;
-import io.khasang.enterprise.service.registrationService.RegistrationService;
-import io.khasang.enterprise.webservice.exchangerates.Rates;
+import io.khasang.techsandbox.dao.interfaces.ClientDao;
+import io.khasang.techsandbox.dao.interfaces.EmployeeDao;
+import io.khasang.techsandbox.model.Client;
+import io.khasang.techsandbox.model.ClientRole;
+import io.khasang.techsandbox.model.Employee;
+import io.khasang.techsandbox.model.EmployeeRole;
+import io.khasang.techsandbox.service.AdminService;
+import io.khasang.techsandbox.service.registrationService.EmployeeValidator;
+import io.khasang.techsandbox.service.registrationService.RegistrationService;
+import io.khasang.techsandbox.webservice.exchangerates.Rates;
 import org.hibernate.Hibernate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

@@ -1,8 +1,8 @@
-package io.khasang.enterprise.dao;
+package io.khasang.techsandbox.dao;
 
-import io.khasang.enterprise.dao.interfaces.ProjectDao;
-import io.khasang.enterprise.model.Project;
-import io.khasang.enterprise.model.enums.ProjectBasis;
+import io.khasang.techsandbox.dao.interfaces.ProjectDao;
+import io.khasang.techsandbox.model.Project;
+import io.khasang.techsandbox.model.enums.ProjectBasis;
 import org.hibernate.Criteria;
 import org.hibernate.Query;
 import org.hibernate.criterion.Restrictions;

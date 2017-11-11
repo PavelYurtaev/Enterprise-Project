@@ -1,7 +1,7 @@
-package io.khasang.enterprise.dao;
+package io.khasang.techsandbox.dao;
 
-import io.khasang.enterprise.dao.interfaces.EmployeeDao;
-import io.khasang.enterprise.model.Employee;
+import io.khasang.techsandbox.dao.interfaces.EmployeeDao;
+import io.khasang.techsandbox.model.Employee;
 import org.hibernate.Query;
 import org.hibernate.SQLQuery;
 import org.springframework.stereotype.Repository;
