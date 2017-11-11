@@ -1,12 +1,12 @@
-package io.khasang.enterprise.dao;
+package io.khasang.techsandbox.dao;
 
-import io.khasang.enterprise.config.HibernateConfig;
-import io.khasang.enterprise.config.application.WebConfig;
-import io.khasang.enterprise.dao.interfaces.*;
-import io.khasang.enterprise.model.*;
-import io.khasang.enterprise.model.enums.Features;
-import io.khasang.enterprise.model.enums.ProjectBasis;
-import io.khasang.enterprise.model.enums.TrackStatus;
+import io.khasang.techsandbox.config.HibernateConfig;
+import io.khasang.techsandbox.config.application.WebConfig;
+import io.khasang.techsandbox.dao.interfaces.*;
+import io.khasang.techsandbox.model.*;
+import io.khasang.techsandbox.model.enums.Features;
+import io.khasang.techsandbox.model.enums.ProjectBasis;
+import io.khasang.techsandbox.model.enums.TrackStatus;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

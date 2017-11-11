@@ -1,9 +1,10 @@
 
-package io.khasang.enterprise.webservice.exchangerates.generated.ru.cbr.web;
+package io.khasang.techsandbox.webservice.exchangerates.generated.ru.cbr.web;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAnyElement;
+import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
@@ -18,7 +19,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="mrrf7DResult" minOccurs="0">
+ *         &lt;element name="ROISfixResult" minOccurs="0">
  *           &lt;complexType>
  *             &lt;complexContent>
  *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
@@ -39,35 +40,36 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "mrrf7DResult"
+    "roiSfixResult"
 })
-@XmlRootElement(name = "mrrf7DResponse")
-public class Mrrf7DResponse {
+@XmlRootElement(name = "ROISfixResponse")
+public class ROISfixResponse {
 
-    protected Mrrf7DResponse.Mrrf7DResult mrrf7DResult;
+    @XmlElement(name = "ROISfixResult")
+    protected ROISfixResponse.ROISfixResult roiSfixResult;
 
     /**
-     * Gets the value of the mrrf7DResult property.
+     * Gets the value of the roiSfixResult property.
      * 
      * @return
      *     possible object is
-     *     {@link Mrrf7DResponse.Mrrf7DResult }
+     *     {@link ROISfixResponse.ROISfixResult }
      *     
      */
-    public Mrrf7DResponse.Mrrf7DResult getMrrf7DResult() {
-        return mrrf7DResult;
+    public ROISfixResponse.ROISfixResult getROISfixResult() {
+        return roiSfixResult;
     }
 
     /**
-     * Sets the value of the mrrf7DResult property.
+     * Sets the value of the roiSfixResult property.
      * 
      * @param value
      *     allowed object is
-     *     {@link Mrrf7DResponse.Mrrf7DResult }
+     *     {@link ROISfixResponse.ROISfixResult }
      *     
      */
-    public void setMrrf7DResult(Mrrf7DResponse.Mrrf7DResult value) {
-        this.mrrf7DResult = value;
+    public void setROISfixResult(ROISfixResponse.ROISfixResult value) {
+        this.roiSfixResult = value;
     }
 
 
@@ -94,7 +96,7 @@ public class Mrrf7DResponse {
     @XmlType(name = "", propOrder = {
         "any"
     })
-    public static class Mrrf7DResult {
+    public static class ROISfixResult {
 
         @XmlAnyElement(lax = true)
         protected Object any;

@@ -1,5 +1,5 @@
 
-package io.khasang.enterprise.webservice.exchangerates.generated.ru.cbr.web;
+package io.khasang.techsandbox.webservice.exchangerates.generated.ru.cbr.web;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -19,7 +19,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="ROISfixResult" minOccurs="0">
+ *         &lt;element name="SaldoResult" minOccurs="0">
  *           &lt;complexType>
  *             &lt;complexContent>
  *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
@@ -40,36 +40,36 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "roiSfixResult"
+    "saldoResult"
 })
-@XmlRootElement(name = "ROISfixResponse")
-public class ROISfixResponse {
+@XmlRootElement(name = "SaldoResponse")
+public class SaldoResponse {
 
-    @XmlElement(name = "ROISfixResult")
-    protected ROISfixResponse.ROISfixResult roiSfixResult;
+    @XmlElement(name = "SaldoResult")
+    protected SaldoResponse.SaldoResult saldoResult;
 
     /**
-     * Gets the value of the roiSfixResult property.
+     * Gets the value of the saldoResult property.
      * 
      * @return
      *     possible object is
-     *     {@link ROISfixResponse.ROISfixResult }
+     *     {@link SaldoResponse.SaldoResult }
      *     
      */
-    public ROISfixResponse.ROISfixResult getROISfixResult() {
-        return roiSfixResult;
+    public SaldoResponse.SaldoResult getSaldoResult() {
+        return saldoResult;
     }
 
     /**
-     * Sets the value of the roiSfixResult property.
+     * Sets the value of the saldoResult property.
      * 
      * @param value
      *     allowed object is
-     *     {@link ROISfixResponse.ROISfixResult }
+     *     {@link SaldoResponse.SaldoResult }
      *     
      */
-    public void setROISfixResult(ROISfixResponse.ROISfixResult value) {
-        this.roiSfixResult = value;
+    public void setSaldoResult(SaldoResponse.SaldoResult value) {
+        this.saldoResult = value;
     }
 
 
@@ -96,7 +96,7 @@ public class ROISfixResponse {
     @XmlType(name = "", propOrder = {
         "any"
     })
-    public static class ROISfixResult {
+    public static class SaldoResult {
 
         @XmlAnyElement(lax = true)
         protected Object any;

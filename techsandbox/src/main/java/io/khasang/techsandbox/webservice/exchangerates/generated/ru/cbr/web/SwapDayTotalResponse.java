@@ -1,5 +1,5 @@
 
-package io.khasang.enterprise.webservice.exchangerates.generated.ru.cbr.web;
+package io.khasang.techsandbox.webservice.exchangerates.generated.ru.cbr.web;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -19,7 +19,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="SaldoResult" minOccurs="0">
+ *         &lt;element name="SwapDayTotalResult" minOccurs="0">
  *           &lt;complexType>
  *             &lt;complexContent>
  *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
@@ -40,36 +40,36 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "saldoResult"
+    "swapDayTotalResult"
 })
-@XmlRootElement(name = "SaldoResponse")
-public class SaldoResponse {
+@XmlRootElement(name = "SwapDayTotalResponse")
+public class SwapDayTotalResponse {
 
-    @XmlElement(name = "SaldoResult")
-    protected SaldoResponse.SaldoResult saldoResult;
+    @XmlElement(name = "SwapDayTotalResult")
+    protected SwapDayTotalResponse.SwapDayTotalResult swapDayTotalResult;
 
     /**
-     * Gets the value of the saldoResult property.
+     * Gets the value of the swapDayTotalResult property.
      * 
      * @return
      *     possible object is
-     *     {@link SaldoResponse.SaldoResult }
+     *     {@link SwapDayTotalResponse.SwapDayTotalResult }
      *     
      */
-    public SaldoResponse.SaldoResult getSaldoResult() {
-        return saldoResult;
+    public SwapDayTotalResponse.SwapDayTotalResult getSwapDayTotalResult() {
+        return swapDayTotalResult;
     }
 
     /**
-     * Sets the value of the saldoResult property.
+     * Sets the value of the swapDayTotalResult property.
      * 
      * @param value
      *     allowed object is
-     *     {@link SaldoResponse.SaldoResult }
+     *     {@link SwapDayTotalResponse.SwapDayTotalResult }
      *     
      */
-    public void setSaldoResult(SaldoResponse.SaldoResult value) {
-        this.saldoResult = value;
+    public void setSwapDayTotalResult(SwapDayTotalResponse.SwapDayTotalResult value) {
+        this.swapDayTotalResult = value;
     }
 
 
@@ -96,7 +96,7 @@ public class SaldoResponse {
     @XmlType(name = "", propOrder = {
         "any"
     })
-    public static class SaldoResult {
+    public static class SwapDayTotalResult {
 
         @XmlAnyElement(lax = true)
         protected Object any;

@@ -1,6 +1,6 @@
-package io.khasang.enterprise.webservice.exchangerates;
+package io.khasang.techsandbox.webservice.exchangerates;
 
-import io.khasang.enterprise.webservice.exchangerates.generated.ru.cbr.web.GetCursOnDateXMLResponse.GetCursOnDateXMLResult;
+import io.khasang.techsandbox.webservice.exchangerates.generated.ru.cbr.web.GetCursOnDateXMLResponse.GetCursOnDateXMLResult;
 import org.apache.xerces.dom.ElementNSImpl;
 import org.apache.xerces.dom.TextImpl;
 import org.w3c.dom.Node;

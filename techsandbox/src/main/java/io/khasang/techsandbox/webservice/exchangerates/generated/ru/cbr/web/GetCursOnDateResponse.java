@@ -1,5 +1,5 @@
 
-package io.khasang.enterprise.webservice.exchangerates.generated.ru.cbr.web;
+package io.khasang.techsandbox.webservice.exchangerates.generated.ru.cbr.web;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -19,7 +19,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="SwapDayTotalResult" minOccurs="0">
+ *         &lt;element name="GetCursOnDateResult" minOccurs="0">
  *           &lt;complexType>
  *             &lt;complexContent>
  *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
@@ -40,36 +40,36 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "swapDayTotalResult"
+    "getCursOnDateResult"
 })
-@XmlRootElement(name = "SwapDayTotalResponse")
-public class SwapDayTotalResponse {
+@XmlRootElement(name = "GetCursOnDateResponse")
+public class GetCursOnDateResponse {
 
-    @XmlElement(name = "SwapDayTotalResult")
-    protected SwapDayTotalResponse.SwapDayTotalResult swapDayTotalResult;
+    @XmlElement(name = "GetCursOnDateResult")
+    protected GetCursOnDateResponse.GetCursOnDateResult getCursOnDateResult;
 
     /**
-     * Gets the value of the swapDayTotalResult property.
+     * Gets the value of the getCursOnDateResult property.
      * 
      * @return
      *     possible object is
-     *     {@link SwapDayTotalResponse.SwapDayTotalResult }
+     *     {@link GetCursOnDateResponse.GetCursOnDateResult }
      *     
      */
-    public SwapDayTotalResponse.SwapDayTotalResult getSwapDayTotalResult() {
-        return swapDayTotalResult;
+    public GetCursOnDateResponse.GetCursOnDateResult getGetCursOnDateResult() {
+        return getCursOnDateResult;
     }
 
     /**
-     * Sets the value of the swapDayTotalResult property.
+     * Sets the value of the getCursOnDateResult property.
      * 
      * @param value
      *     allowed object is
-     *     {@link SwapDayTotalResponse.SwapDayTotalResult }
+     *     {@link GetCursOnDateResponse.GetCursOnDateResult }
      *     
      */
-    public void setSwapDayTotalResult(SwapDayTotalResponse.SwapDayTotalResult value) {
-        this.swapDayTotalResult = value;
+    public void setGetCursOnDateResult(GetCursOnDateResponse.GetCursOnDateResult value) {
+        this.getCursOnDateResult = value;
     }
 
 
@@ -96,7 +96,7 @@ public class SwapDayTotalResponse {
     @XmlType(name = "", propOrder = {
         "any"
     })
-    public static class SwapDayTotalResult {
+    public static class GetCursOnDateResult {
 
         @XmlAnyElement(lax = true)
         protected Object any;

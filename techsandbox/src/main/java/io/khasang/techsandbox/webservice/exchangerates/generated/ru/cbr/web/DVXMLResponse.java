@@ -1,10 +1,13 @@
 
-package io.khasang.enterprise.webservice.exchangerates.generated.ru.cbr.web;
+package io.khasang.techsandbox.webservice.exchangerates.generated.ru.cbr.web;
 
+import java.util.ArrayList;
+import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAnyElement;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlMixed;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
@@ -19,7 +22,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="GetCursOnDateResult" minOccurs="0">
+ *         &lt;element name="DVXMLResult" minOccurs="0">
  *           &lt;complexType>
  *             &lt;complexContent>
  *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
@@ -40,36 +43,36 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "getCursOnDateResult"
+    "dvxmlResult"
 })
-@XmlRootElement(name = "GetCursOnDateResponse")
-public class GetCursOnDateResponse {
+@XmlRootElement(name = "DVXMLResponse")
+public class DVXMLResponse {
 
-    @XmlElement(name = "GetCursOnDateResult")
-    protected GetCursOnDateResponse.GetCursOnDateResult getCursOnDateResult;
+    @XmlElement(name = "DVXMLResult")
+    protected DVXMLResponse.DVXMLResult dvxmlResult;
 
     /**
-     * Gets the value of the getCursOnDateResult property.
+     * Gets the value of the dvxmlResult property.
      * 
      * @return
      *     possible object is
-     *     {@link GetCursOnDateResponse.GetCursOnDateResult }
+     *     {@link DVXMLResponse.DVXMLResult }
      *     
      */
-    public GetCursOnDateResponse.GetCursOnDateResult getGetCursOnDateResult() {
-        return getCursOnDateResult;
+    public DVXMLResponse.DVXMLResult getDVXMLResult() {
+        return dvxmlResult;
     }
 
     /**
-     * Sets the value of the getCursOnDateResult property.
+     * Sets the value of the dvxmlResult property.
      * 
      * @param value
      *     allowed object is
-     *     {@link GetCursOnDateResponse.GetCursOnDateResult }
+     *     {@link DVXMLResponse.DVXMLResult }
      *     
      */
-    public void setGetCursOnDateResult(GetCursOnDateResponse.GetCursOnDateResult value) {
-        this.getCursOnDateResult = value;
+    public void setDVXMLResult(DVXMLResponse.DVXMLResult value) {
+        this.dvxmlResult = value;
     }
 
 
@@ -94,35 +97,42 @@ public class GetCursOnDateResponse {
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
-        "any"
+        "content"
     })
-    public static class GetCursOnDateResult {
+    public static class DVXMLResult {
 
+        @XmlMixed
         @XmlAnyElement(lax = true)
-        protected Object any;
+        protected List<Object> content;
 
         /**
-         * Gets the value of the any property.
+         * Gets the value of the content property.
          * 
-         * @return
-         *     possible object is
-         *     {@link Object }
-         *     
-         */
-        public Object getAny() {
-            return any;
-        }
-
-        /**
-         * Sets the value of the any property.
+         * <p>
+         * This accessor method returns a reference to the live list,
+         * not a snapshot. Therefore any modification you make to the
+         * returned list will be present inside the JAXB object.
+         * This is why there is not a <CODE>set</CODE> method for the content property.
          * 
-         * @param value
-         *     allowed object is
-         *     {@link Object }
-         *     
+         * <p>
+         * For example, to add a new item, do as follows:
+         * <pre>
+         *    getContent().add(newItem);
+         * </pre>
+         * 
+         * 
+         * <p>
+         * Objects of the following type(s) are allowed in the list
+         * {@link Object }
+         * {@link String }
+         * 
+         * 
          */
-        public void setAny(Object value) {
-            this.any = value;
+        public List<Object> getContent() {
+            if (content == null) {
+                content = new ArrayList<Object>();
+            }
+            return this.content;
         }
 
     }

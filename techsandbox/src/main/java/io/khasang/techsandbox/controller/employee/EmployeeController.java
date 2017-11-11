@@ -1,11 +1,11 @@
-package io.khasang.enterprise.controller.employee;
+package io.khasang.techsandbox.controller.employee;
 
-import io.khasang.enterprise.model.CustomerOrder;
-import io.khasang.enterprise.model.Project;
-import io.khasang.enterprise.model.Track;
-import io.khasang.enterprise.service.ProjectTrackingService;
-import io.khasang.enterprise.service.registrationService.RegistrationService;
-import io.khasang.enterprise.webservice.exchangerates.Rates;
+import io.khasang.techsandbox.model.CustomerOrder;
+import io.khasang.techsandbox.model.Project;
+import io.khasang.techsandbox.model.Track;
+import io.khasang.techsandbox.service.ProjectTrackingService;
+import io.khasang.techsandbox.service.registrationService.RegistrationService;
+import io.khasang.techsandbox.webservice.exchangerates.Rates;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
