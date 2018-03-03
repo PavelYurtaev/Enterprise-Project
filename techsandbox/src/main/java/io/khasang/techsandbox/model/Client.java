@@ -2,6 +2,7 @@ package io.khasang.techsandbox.model;
 
 import org.hibernate.annotations.Cascade;
 import org.hibernate.annotations.CascadeType;
+import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -26,7 +27,8 @@ public class Client extends SuperUser {
     @Column(name = "phone_number")
     private String phoneNumber;
 
-    @Column(name = "enabled", nullable = false, columnDefinition = "TINYINT(1) default 1")
+    @Column(name = "enabled", nullable = false, columnDefinition = "INT(1) default 1")
+    @Type(type = "org.hibernate.type.NumericBooleanType")
     private boolean enabled = true;
 
     @OneToMany(cascade = javax.persistence.CascadeType.ALL, mappedBy = "client", fetch = FetchType.LAZY)

@@ -3,6 +3,7 @@ package io.khasang.techsandbox.model;
 import io.khasang.techsandbox.model.enums.Department;
 import org.hibernate.annotations.Cascade;
 import org.hibernate.annotations.CascadeType;
+import org.hibernate.annotations.Type;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
@@ -49,7 +50,8 @@ public class Employee extends SuperUser {
     @Column(name = "tax")
     private BigDecimal tax;
 
-    @Column(name = "enabled", nullable = false, columnDefinition = "TINYINT(1) default 1")
+    @Column(name = "enabled", nullable = false, columnDefinition = "INT(1) default 1")
+    @Type(type = "org.hibernate.type.NumericBooleanType")
     private boolean enabled;
 
     @OneToMany(mappedBy = "employee")
