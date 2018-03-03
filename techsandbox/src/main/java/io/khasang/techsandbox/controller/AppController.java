@@ -5,6 +5,7 @@ import io.khasang.techsandbox.service.NewsService;
 import io.khasang.techsandbox.service.registrationService.ClientValidator;
 import io.khasang.techsandbox.service.registrationService.RegistrationService;
 import io.khasang.techsandbox.webservice.exchangerates.Rates;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.LockedException;
@@ -76,7 +77,7 @@ public class AppController {
     public ModelAndView login(@RequestParam(value = "error", required = false) String error,
                               HttpServletRequest request) {
         ModelAndView model = new ModelAndView();
-        if (error != null) {
+        if (StringUtils.isNotEmpty(error)) {
             model.addObject("error", getErrorMessage(request, "SPRING_SECURITY_LAST_EXCEPTION"));
         }
         model.setViewName("login");
@@ -111,7 +112,7 @@ public class AppController {
     }
 
     @RequestMapping(value = "reg/registration", method = RequestMethod.POST)
-    public String ClientRegistration(@ModelAttribute("client") @Valid Client newClient, BindingResult result) {
+    public String clientRegistration(@ModelAttribute("client") @Valid Client newClient, BindingResult result) {
         if (result.hasErrors()) {
             return "/registration";
         } else {

@@ -23,7 +23,7 @@ import java.util.Collection;
 @EnableTransactionManagement
 @ComponentScan({"io.khasang.techsandbox.config"})
 public class UrlAuthSuccessHandler implements AuthenticationSuccessHandler {
-    protected final Log logger = LogFactory.getLog(this.getClass());
+    private final Log logger = LogFactory.getLog(this.getClass());
     private RedirectStrategy redirectStrategy = new DefaultRedirectStrategy();
 
     public UrlAuthSuccessHandler() {
@@ -36,7 +36,7 @@ public class UrlAuthSuccessHandler implements AuthenticationSuccessHandler {
         clearAuthenticationAttributes(request);
     }
 
-    protected void handle(final HttpServletRequest request, final HttpServletResponse response, final Authentication authentication) throws IOException {
+    private void handle(final HttpServletRequest request, final HttpServletResponse response, final Authentication authentication) throws IOException {
         final String targetUrl = determineTargetUrl(authentication);
         if (response.isCommitted()) {
             logger.debug("Response has already been committed. Unable to redirect to " + targetUrl);
@@ -45,7 +45,7 @@ public class UrlAuthSuccessHandler implements AuthenticationSuccessHandler {
         redirectStrategy.sendRedirect(request, response, targetUrl);
     }
 
-    protected String determineTargetUrl(final Authentication authentication) {
+    private String determineTargetUrl(final Authentication authentication) {
         boolean isAdmin = false;
         boolean isClient = false;
         boolean isEmployee = false;
@@ -73,7 +73,7 @@ public class UrlAuthSuccessHandler implements AuthenticationSuccessHandler {
         }
     }
 
-    protected final void clearAuthenticationAttributes(final HttpServletRequest request) {
+    private final void clearAuthenticationAttributes(final HttpServletRequest request) {
         final HttpSession session = request.getSession(false);
         if (session == null) {
             return;
