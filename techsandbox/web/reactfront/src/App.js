@@ -1,25 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import 'whatwg-fetch';
 import './App.css';
+import RaisedButton from 'material-ui/RaisedButton';
 
-class App extends Component {
-    handleSubmit = (event) => {
-        event.preventDefault();
-        let request = this.state.request.trim();
-        if (!request) {
-            return;
-        }
-        fetch(`/echo?request=${request}`)
-            .then(response => {
-                return response.text();
-            })
-            .then(body => {
-                alert(body);
-            });
-    }
-    
-
+export default class App extends Component {
   render() {
     return (
       <div className="App">
@@ -28,12 +12,10 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
           <div>
-              <input type="submit" value="Echo" onClick={this.handleSubmit}/>
+              <input type="submit" value="standard"/>
+              <RaisedButton label="material" />
           </div>
       </div>
     );
   }
 }
-
-
-export default App;
