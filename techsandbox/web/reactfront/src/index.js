@@ -1,17 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './styles/index.css';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
 import injectTapEventPlugin from 'react-tap-event-plugin';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
+import { BrowserRouter, Route } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import { mainReducer } from "./reducers/MainReducer";
 
 injectTapEventPlugin();
-registerServiceWorker();
+
+const store = createStore(mainReducer);
 
 ReactDOM.render(
-    <MuiThemeProvider>
-        <App />
-    </MuiThemeProvider>,
+    <Provider store={store}>
+        <BrowserRouter>
+            <Route path="/" component={App}/>
+        </BrowserRouter>
+    </Provider>,
     document.getElementById('root'));
+
+
+
+
 
